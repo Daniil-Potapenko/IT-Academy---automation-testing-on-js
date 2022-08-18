@@ -1,0 +1,444 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "search_term": {
+      "type": "string"
+    },
+    "search_site": {
+      "type": "string"
+    },
+    "knowledge_panel": {
+      "type": "null"
+    },
+    "results": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "position": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "url",
+            "title",
+            "description"
+          ]
+        }
+      ],
+      "additionalItems": true
+    },
+    "related_keywords": {
+      "type": "object",
+      "properties": {
+        "spelling_suggestion_html": {
+          "type": "null"
+        },
+        "spelling_suggestion": {
+          "type": "null"
+        },
+        "keywords": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                },
+                "knowledge": {
+                  "type": "null"
+                },
+                "keyword_html": {
+                  "type": "string"
+                },
+                "keyword": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "position",
+                "knowledge",
+                "keyword_html",
+                "keyword"
+              ]
+            }
+          ],
+          "additionalItems": true
+        }
+      },
+      "required": [
+        "spelling_suggestion_html",
+        "spelling_suggestion",
+        "keywords"
+      ]
+    }
+  },
+  "required": [
+    "search_term",
+    "search_site",
+    "knowledge_panel",
+    "results",
+    "related_keywords"
+  ]
+}
+
