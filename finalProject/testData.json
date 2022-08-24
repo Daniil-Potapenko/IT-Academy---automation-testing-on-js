@@ -1,0 +1,49 @@
+{
+        "search query":{
+            "1":"Asus",
+            "2":"iPhone",
+            "3":"Huawei",
+            "4":"Apple"
+        },
+        "locations":{
+            "1":"Витебск",
+            "2":"Солигорск"
+        },
+        "catalog":{
+            "firstLevelCategory":{
+                "1":"Компьютеры и периферия",
+                "2":"Бытовая техника",
+                "3":"Строительный инструмент"
+            },
+            "ThirdLevelCategory":{
+                "1":"Моноблоки",
+                "2":"Вытяжки",
+                "3":"Профессиональные шуруповерты"
+            }
+        },
+        "PickupPointsCheck":{
+            "data": {
+                "type": "PickupPointsCheck",
+                "attributes": {
+                    "pickup_points": [
+                        690
+                    ],
+                    "products": [
+                        {
+                            "code": 7644103,
+                            "count": 1,
+                            "width": 0.07,
+                            "height": 0.14,
+                            "deep": 0.01,
+                            "weight": 0.177
+                        }
+                    ]
+                }
+            }
+        },
+        "citiesSearch":{
+            "filter[name]":"Микулино",
+            "page[limit]":1,
+            "page[offset]":0
+        }
+}

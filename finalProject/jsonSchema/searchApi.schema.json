@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome9",
+  "definitions": {
+      "Welcome9": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "total": {
+                  "type": "integer"
+              },
+              "request": {
+                  "type": "string"
+              },
+              "id": {
+                  "type": "string"
+              },
+              "data": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/Datum"
+                  }
+              }
+          },
+          "required": [
+              "data",
+              "id",
+              "request",
+              "total"
+          ],
+          "title": "Welcome9"
+      },
+      "Datum": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "group_type": {
+                  "type": "string"
+              },
+              "group_title": {
+                  "anyOf": [
+                      {
+                          "type": "null"
+                      },
+                      {
+                          "type": "string"
+                      }
+                  ]
+              },
+              "items": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/Item"
+                  }
+              }
+          },
+          "required": [
+              "group_title",
+              "group_type",
+              "items"
+          ],
+          "title": "Datum"
+      },
+      "Item": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "type": {
+                  "type": "string"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "url": {
+                  "type": "string"
+              },
+              "id": {
+                  "type": "string"
+              },
+              "product_id": {
+                  "type": "string"
+              },
+              "image": {
+                  "type": "string",
+                  "format": "uri",
+                  "qt-uri-protocols": [
+                      "https"
+                  ],
+                  "qt-uri-extensions": [
+                      ".jpeg",
+                      ".png"
+                  ]
+              },
+              "price": {
+                  "type": "string"
+              },
+              "price_without_discount": {
+                  "anyOf": [
+                      {
+                          "type": "null"
+                      },
+                      {
+                          "type": "string"
+                      }
+                  ]
+              },
+              "labels": {
+                  "type": "null"
+              }
+          },
+          "required": [
+              "id",
+              "name",
+              "type",
+              "url"
+          ],
+          "title": "Item"
+      }
+  }
+}
