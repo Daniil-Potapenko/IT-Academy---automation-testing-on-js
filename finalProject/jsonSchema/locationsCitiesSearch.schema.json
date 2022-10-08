@@ -1,0 +1,126 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "jsonapi": {
+                    "$ref": "#/definitions/Jsonapi"
+                },
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Datum"
+                    }
+                },
+                "meta": {
+                    "$ref": "#/definitions/Meta"
+                }
+            },
+            "required": [
+                "data",
+                "jsonapi",
+                "meta"
+            ],
+            "title": "Welcome6"
+        },
+        "Datum": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "attributes": {
+                    "$ref": "#/definitions/Attributes"
+                }
+            },
+            "required": [
+                "attributes",
+                "id",
+                "type"
+            ],
+            "title": "Datum"
+        },
+        "Attributes": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "region": {
+                    "type": "string"
+                },
+                "district": {
+                    "type": "string"
+                },
+                "selsovet": {
+                    "type": "string"
+                },
+                "x_coordinate": {
+                    "type": "string"
+                },
+                "y_coordinate": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "district",
+                "name",
+                "region",
+                "selsovet",
+                "type",
+                "x_coordinate",
+                "y_coordinate"
+            ],
+            "title": "Attributes"
+        },
+        "Jsonapi": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "version": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "version"
+            ],
+            "title": "Jsonapi"
+        },
+        "Meta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "count": {
+                    "type": "integer"
+                },
+                "total": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "count",
+                "name",
+                "total",
+                "version"
+            ],
+            "title": "Meta"
+        }
+    }
+}
