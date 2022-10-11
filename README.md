@@ -1,5 +1,3 @@
-# it-a-5
-
 homeWork5:
 1. Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
 2. Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
