@@ -13,7 +13,7 @@ test.describe('testing search Api', () => {
         schema=require('../jsonSchema/searchApi.schema')
         response = await axios({
             method: 'GET',
-            url: 'https://search.21vek.by/api/v2.0/search/suggest',
+            url: 'https://search.onlineMarket.by/api/v2.0/search/suggest',
             params: {q:testData['search query'][1]},
             headers: {
                 'Content-Type': 'text/plain',
@@ -40,7 +40,7 @@ test.describe('testing pickup-points Api', () => {
         response = await axios({
             data: testData.PickupPointsCheck,
             method: 'POST',
-            url: 'https://gate.21vek.by/pickup-points/check',
+            url: 'https://gate.onlineMarket.by/pickup-points/check',
             headers: {
                 'Content-Type': 'application/vnd.api+json',
                 'Accept':'application/vnd.api+json'
@@ -66,7 +66,7 @@ test.describe('testing locations Api', () => {
         schema=require('../jsonSchema/locationsCitiesSearch.schema.json')
         response = await axios({
             method: 'GET',
-            url: 'https://gate.21vek.by/locations/cities/search',
+            url: 'https://gate.onlineMarket.by/locations/cities/search',
             params:testData.citiesSearch,
             headers: {
                 'Accept':'application/vnd.api+json',
